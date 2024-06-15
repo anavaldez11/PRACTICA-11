@@ -1,0 +1,84 @@
+* {
+  box-sizing: border-box;
+}
+
+.menu {
+  float: left;
+  width: 20%;
+  text-align: center;
+}
+
+.menu a {
+  background-color: #87c3e8;
+  padding: 8px;
+  margin-top: 7px;
+  display: block;
+  width: 100%;
+  color: #222020;
+}
+
+.main {
+  float: left;
+  width: 60%;
+  padding: 0 20px;
+}
+
+.right {
+  background-color: #87c3e8;
+  float: left;
+
+  margin-top: 35px;
+  text-align: center;
+}
+
+@media only screen and (max-width: 620px) {
+  /* For mobile phones: */
+  .menu, .main, .right {
+    width: 100%;
+  }
+}
+ h2{
+   color: #000000;
+    font-family: "Courier New";
+   padding: 8px;
+   margin-top: 7px;
+   display: block;
+   width: 100%;
+ }
+ p{
+   color: #000000;
+ }
+ h1{
+   color: #000000;
+    background-color: #87c3e8;
+   font-family: "Courier New";
+ }
+.contenido
+  {
+     background-color:#63f28e;
+    padding:35px;
+    text-align:center;
+    font-family: sans-serif
+   }
+.quees
+{
+   color: #000000;
+    text-align: center;
+   font-family: "sans";
+ }
+.IYD
+{
+   color: #000000;
+    text-align: center;
+   font-family: "sans";
+  background-color:#ffadc6;
+  padding:35px;
+ }
+.derecho
+{
+   color: #000000;
+    text-align: center;
+   font-family: "sans";
+  background-color:#ffb38a;
+  padding:35px;
+ }
